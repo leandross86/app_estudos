@@ -43,7 +43,7 @@ exports.delete = async(repository, validationContract, req, res) => {
                 res.status(401).send({message:'Operação inválida'});
             }
         } else {
-            res.status(500).send({message:'O parâmetro ID precisa ser informado'})
+            res.status(500).send({message:'O parâmetro ID precisa ser informado'});
         }
     } catch(e){
         res.status(500).send({message: "Internal server error", error:e});
