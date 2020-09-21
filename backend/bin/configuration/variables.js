@@ -1,12 +1,18 @@
 const variables = {
-    Database: {
-        connection:process.env.connection
+    Api:{
+        port:process.env.port || 3333
     },
-    Security: {
-        secretKey: process.env.secretKey
+    Database:{
+        connection: process.env.connection 
     },
-    Pagarme: {
-        pagarmeKey: process.env.pagarme
+    Security:{
+        secretKey:process.env.secretKey 
+    },
+    Pagarme:{
+     pagarmeKey:process.env.pagarme ,
+     pagarmeKeyTest:process.env.pagarmetest 
     }
-}
-module.exports = variables;
+  }
+  
+  module.exports = variables;
+  
