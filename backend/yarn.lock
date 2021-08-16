@@ -453,10 +453,10 @@ on-finished@~2.3.0:
   dependencies:
     ee-first "1.1.1"
 
-pagarme@^4.12.0:
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/pagarme/-/pagarme-4.12.0.tgz#651f8644219766298a28ae215df958be6649141e"
-  integrity sha512-YJkEZJHyZAPEMpAolE3T/f7jjGrJ5coFH4oqRe0q6ZG40ucYJRCX13J9z01p0cjgbGV+Ddo0LOq+HDfjItbu0A==
+pagarme@^4.19.0:
+  version "4.19.3"
+  resolved "https://registry.yarnpkg.com/pagarme/-/pagarme-4.19.3.tgz#1afea59d0d13666cfa46b6de9c2b448b00cd5f5e"
+  integrity sha512-9smrn0gtl1v7G5ZwsoADhv48fmUX1GTHPYNBxaZtHM3+OrAx4BQeie6dZLsJopQ1i5ujyu9i60N/RoSZlqRzng==
 
 parseurl@~1.3.3:
   version "1.3.3"
